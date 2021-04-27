@@ -21,10 +21,21 @@ public class Main {
     System.out.println();
     
     //Using director class to build
-    System.out.println(" make kfc order with director");
+    System.out.println(" make kfc order 1 with director");
     director.makeOrder1(kfcBuilder);
-    System.out.println(" make mcdonalds order with director");
+    System.out.println();
+    
+    System.out.println(" make mcdonalds order 1 with director");
+    director.makeOrder1(mcDonaldsBuilder);
+    System.out.println();
+  
+    System.out.println(" make mcdonalds order 2 with director");
     director.makeOrder2(mcDonaldsBuilder);
+    System.out.println();
+  
+    System.out.println(" make mcdonalds order 3 with director");
+    director.makeOrder3(mcDonaldsBuilder);
+    System.out.println();
   
     //Using built order
     McDonaldsOrder order = mcDonaldsBuilder.getResult();
