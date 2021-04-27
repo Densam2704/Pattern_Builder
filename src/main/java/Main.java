@@ -4,6 +4,8 @@ import dircetor.Director;
 import menu.Drink;
 import orders.McDonaldsOrder;
 
+//Inspired by https://refactoring.guru/ru/design-patterns/builder
+
 public class Main {
   
   public static void main(String[] args) {
